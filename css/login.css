@@ -1,0 +1,11 @@
+@import url(../css/styles.css);
+
+.login {
+    background-color: var(--blanco-oscuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 40px;
+}

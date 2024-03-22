@@ -1,0 +1,29 @@
+@import url(../css/styles.css);
+
+header{
+    display: flex;
+    flex-direction: wrap;
+    width: 100%;
+    height: 80px;
+    border-end-end-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: var(--azul-osculro);
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.imagen-usuario{
+    margin: 7px;
+    margin-left: 40px;
+}
+
+.links>*{
+    margin: 46px;
+}

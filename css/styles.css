@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,600&display=swap');
+
+:root{
+    --azul-osculro: #222831;
+    --azul-intermedio: #343a45;
+    --azul-claro: #76ABAE;
+    --azul-claro2: #7FC7D9;
+    --blanco-oscuro: #BDBDBD;
+    --blanco-intermedio: #D9D9D9;
+    --blanco-claro: #EEEEEE;
+    --blanco-claro2: #FFFFFF;
+    --verde: #307643;
+    --verde-claro: #4D7169;
+    --verde-claro2: #0D9276;
+    --rojo: #BE3144;
+    --rojo2: #FF204E;
+
+    --fuente: "Nunito Sans", sans-serif;
+}
+
+body{
+    background-color: var(--azul-intermedio);
+}
+
+
+/* estilo meramente esteticos */
+
+.protones, .atomos, .moleculas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.protones>*, .atomos>*, .moleculas>*{
+    margin: 1rem;
+}

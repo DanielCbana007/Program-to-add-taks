@@ -1,0 +1,7 @@
+@import url(../css/styles.css);
+
+.addTaks{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}

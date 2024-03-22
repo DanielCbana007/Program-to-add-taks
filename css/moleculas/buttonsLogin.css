@@ -1,0 +1,13 @@
+@import url(../css/styles.css);
+
+.buttonsLogin{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.buttonsLogin>*{
+    margin-left: 75px;
+    margin-right: 75px;
+}

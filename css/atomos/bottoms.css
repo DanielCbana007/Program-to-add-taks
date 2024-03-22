@@ -1,0 +1,82 @@
+@import url(../css/styles.css);
+
+button{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button--login, .button--register {
+    background-color: var(--azul-claro);
+    color: var(--blanco-claro);
+    font-family: var(--fuente);
+    font-weight: 158;
+    font-size: 2rem;
+    border: transparent;
+    border-radius: 10px;
+    width: 252px;
+    height: 80px;
+}
+
+.button--login:hover, .button--register:hover{
+    background-color: var(--azul-claro2);
+}
+
+.button--add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-claro);
+    color: var(--blanco-claro);
+    font-family: var(--fuente);
+    font-weight: 158;
+    font-size: 2rem;
+    border: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 140px;
+    height: 80px;
+}
+
+.button--add:hover{
+    background-color: var(--azul-claro2);
+}
+
+.button--chek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde);
+    color: var(--blanco-claro);
+    font-family: var(--fuente);
+    font-weight: 158;
+    font-size: 2rem;
+    border: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 118px;
+    height: 87px;
+}
+
+.button--chek:hover{
+    background-color: var(--verde-claro2);
+}
+
+.button--delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--rojo);
+    color: var(--blanco-claro);
+    font-family: var(--fuente);
+    font-weight: 158;
+    font-size: 2rem;
+    border: transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 118px;
+    height: 87px;
+}
+
+.button--delete:hover{
+    background-color: var(--rojo2);
+}

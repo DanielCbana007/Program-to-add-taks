@@ -1,0 +1,29 @@
+@import url(../css/atomos/inputs.css);
+
+.input{
+    background-color: var(--blanco-claro);
+    color: var(--azul-osculro);
+    border-color: var(--verde-claro);
+    border: transparent;
+    border-radius: 9px;
+    width: 568px;
+    height: 70px;
+    font-family: var(--fuente);
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 28px;
+}
+
+.name-taks{
+    background-color: var(--blanco-claro);
+    color: var(--azul-osculro);
+    border-color: var(--verde-claro);
+    border: transparent;
+    width: 1062px;
+    height: 78px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: var(--fuente);
+    font-weight: 400;
+    font-size: 2rem;
+}

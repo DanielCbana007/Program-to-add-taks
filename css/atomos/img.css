@@ -1,0 +1,13 @@
+@import url(/css/styles.css);
+
+.img-user{
+    background-color: aliceblue;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+.img-icon{
+    width: 79px;
+    height: 66;
+}

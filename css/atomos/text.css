@@ -1,0 +1,22 @@
+@import url(../css/styles.css);
+
+.title{
+    font-family: var(--fuente);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--azul-osculro);
+}
+
+.sudtitle{
+    font-family: var(--fuente);
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: var(--blanco-claro2);
+}
+
+.text{
+    font-family: var(--fuente);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--azul-osculro);
+}
