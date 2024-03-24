@@ -9,6 +9,7 @@ header{
     border-bottom-left-radius: 12px;
     background-color: var(--azul-osculro);
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .links{

@@ -1,0 +1,6 @@
+@import url(../css/styles.css);
+
+.add-taks {
+    display: flex;
+    justify-content: center;
+}

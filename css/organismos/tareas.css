@@ -1,0 +1,22 @@
+@import url(../css/styles.css);
+
+.taks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--blanco-oscuro);
+}
+
+.input-taks {
+    margin-top: 52px;
+}
+
+.taks-Column{
+    margin: 20px;
+}
+
+.taks-Column>*{
+    margin: 31px;
+}

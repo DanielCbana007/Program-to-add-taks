@@ -14,12 +14,12 @@
     margin: 28px;
 }
 
-.name-taks{
+.name-taks {
     background-color: var(--blanco-claro);
     color: var(--azul-osculro);
     border-color: var(--verde-claro);
     border: transparent;
-    width: 1062px;
+    width: 1192px;
     height: 78px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;

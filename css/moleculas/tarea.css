@@ -1,7 +1,8 @@
 @import url(../css/styles.css);
 
-.addTaks{
+.tak{
     display: flex;
     flex-direction: wrap;
     justify-content: center;
+    align-items: center;
 }

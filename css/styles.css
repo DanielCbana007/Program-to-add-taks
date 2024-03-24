@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,600;1,6..12,600&display=swap');
 
+/* Inicializar variables en la raíz */
 :root{
     --azul-osculro: #222831;
     --azul-intermedio: #343a45;
@@ -23,15 +24,20 @@ body{
 }
 
 
-/* estilo meramente esteticos */
+/* Estilo meramente esteticos */
 
-.protones, .atomos, .moleculas{
+.protones, .atomos, .moleculas, .organismos, .impostor{
     display: flex;
+    
+    /* Exclusivo para mostrar los elementos, no es necesario. Tampoco se debería mencionar la clase impostor, 
+    pero se hace por estética al mostrar los elementos.*/
+    flex-direction: column;
+
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.protones>*, .atomos>*, .moleculas>*{
+.protones>*, .atomos>*, .moleculas>*, .organismos>*, .impostor>*{
     margin: 1rem;
 }

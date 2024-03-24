@@ -1,0 +1,10 @@
+@import url(../css/styles.css);
+
+.title-tak{
+    background-color: var(--blanco-intermedio);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 967px;
+    height: 87px;
+}
