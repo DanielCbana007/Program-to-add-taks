@@ -13,7 +13,7 @@
 
 <p>implemetamos esta metodologia separando por carpetas los distintos archivos CSS y HTML, Cada carpeta alberga los elementos individuales que, cuando se combinan, dan forma a las diversas secciones visuales de la página. Esta práctica nos permite gestionar de manera eficiente la apariencia y el comportamiento de nuestro programa, facilitando su mantenimiento y escalabilidad a medida que evoluciona.</p>
 
-<h3>Blogs para inbestigar</h3>
+<h3>Blogs para investigar</h3>
 
 ---
 `ui--from--mars` : <https://www.uifrommars.com/atomic-design-ventajas/>
